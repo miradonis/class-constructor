@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Panini Karten</title>
+</head>
+
+<body>
+    <section id="inputCreateCard">
+        <form>
+            <input id="firstName" type="text" placeholder="First Name">
+            <input id="lastName" type="text" placeholder="Last Name">
+            <input id="stageName" type="text" placeholder="Stage Name">
+            <input id="albums" type="number" placeholder="How many albums">
+            <input id="singles" type="number" placeholder="How many top 10 Singles? ">
+            <input id="netWorth" type="numder" placeholder="Net worth in EUR">
+            <input id="age" type="number" placeholder="How old is this person?">
+            <textarea name="writeSomething" id="quote" cols="10" rows="10"
+                placeholder="A famous quote by this person"></textarea>
+            <button id="sendDates" type="button">Add</button>
+        </form>
+    </section>
+
+    <section id="newCard">
+        <article>
+            <p id="albumsOutput"></p>
+            <p id="hitsOutput"></p>
+            <p id="netWorthOutput"></p>
+            <p id="ageOutput"></p>
+        </article>
+        <article>
+            <p id="firstNameOutput"></p>
+            <p id="lastNameOutput"></p>
+            <p id="stageNameOutput"></p>
+            <p id="quoteOutput"></p>
+        </article>
+
+    </section>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
